@@ -1,8 +1,5 @@
 # TODO:
-#  - split main package to few smaller (there is linphonec for console,
-#    auto-answering machine and linphone applet for gnome)
-#  - check why --enable-alsa doesn't require alsa-lib-devel
-#  - check if all this configure option I've set are really needed
+# - add headers from mediastream to /usr/include/mediastream
 
 Summary:	Linphone Internet Phone
 Summary(pl):	Linphone - telefon internetowy
