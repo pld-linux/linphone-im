@@ -15,7 +15,7 @@ Source0:	http://dl.sourceforge.net/gaim-vv/%{name}.tar.gz
 # Source0-md5:	4aca3d8b054e187ad8df34b10841c843
 URL:		http://www.linphone.org/
 Requires(post,postun):	/sbin/ldconfig
-Requires(post,postun):	/usr/bin/scrollkeeper-update
+#Requires(post,postun):	/usr/bin/scrollkeeper-update
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_gtkdocdir	%{_defaultdocdir}/gtk-doc/html
