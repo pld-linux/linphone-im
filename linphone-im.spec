@@ -12,6 +12,9 @@ Group:		Applications/Communications
 Source0:	http://dl.sourceforge.net/gaim-vv/%{name}.tar.gz
 # Source0-md5:	4aca3d8b054e187ad8df34b10841c843
 URL:		http://www.linphone.org/
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool
 Requires(post,postun):	/sbin/ldconfig
 #Requires(post,postun):	/usr/bin/scrollkeeper-update
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
