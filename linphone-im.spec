@@ -1,5 +1,6 @@
 # TODO:
 # - add headers from mediastream to /usr/include/mediastreamer
+# - remove included speex
 
 Summary:	Linphone Internet Phone
 Summary(pl):	Linphone - telefon internetowy
