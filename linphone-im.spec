@@ -78,7 +78,7 @@ rm -f missing
 %build
 #%%{__gettextize}
 %{__libtoolize}
-%{__aclocal} #-I /usr/share/aclocal/gnome2-macros
+%{__aclocal}
 %{__autoconf}
 %{__automake}
 cd oRTP
