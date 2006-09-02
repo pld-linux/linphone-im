@@ -19,7 +19,7 @@ Requires(post,postun):	/sbin/ldconfig
 #Requires(post,postun):	/usr/bin/scrollkeeper-update
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_gtkdocdir	%{_defaultdocdir}/gtk-doc/html
+%define		_gtkdocdir	%{_docdir}/gtk-doc/html
 
 %description
 Linphone is a web phone: it let you phone to your friends anywhere in
@@ -89,7 +89,7 @@ cd oRTP
 	%{__aclocal}
 	%{__autoconf}
 	# don't use -f here
-	automake -a -c --foreign
+	%{__automake}
 cd ..
 %configure \
 	--enable-alsa
