@@ -15,11 +15,10 @@ URL:		http://www.linphone.org/
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	libtool
+BuildRequires:	rpmbuild(macros) >= 1.98
 Requires(post,postun):	/sbin/ldconfig
 #Requires(post,postun):	/usr/bin/scrollkeeper-update
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
-
-%define		_gtkdocdir	%{_docdir}/gtk-doc/html
 
 %description
 Linphone is a web phone: it let you phone to your friends anywhere in
@@ -109,7 +108,7 @@ rm -rf $RPM_BUILD_ROOT
 
 find $RPM_BUILD_ROOT -name '*.a'|xargs rm
 
-#%find_lang %{name} 
+#%find_lang %{name}
 #--with-gnome --all-name
 
 %clean
