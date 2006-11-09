@@ -51,7 +51,7 @@ G³ówne cechy linphone:
 Summary:	Linphone Internet Phone - header files
 Summary(pl):	Telefon internetowy Linphone - pliki nag³ówkowe
 Group:		Development/Libraries
-Requires:	%{name} = %{version}
+Requires:	%{name} = %{version}-%{release}
 Requires:	gtk-doc-common
 
 %description devel
@@ -64,7 +64,7 @@ Pliki dla programistów u¿ywaj±cych telefonu internetowego Linphone.
 Summary:	Linphone static libraries
 Summary(pl):	Statyczne biblioteki Linphone
 Group:		Development/Libraries
-Requires:	%{name}-devel = %{version}
+Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 Static version of Linphone libraries.
