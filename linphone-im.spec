@@ -3,7 +3,7 @@
 # - remove included speex
 
 Summary:	Linphone Internet Phone
-Summary(pl):	Linphone - telefon internetowy
+Summary(pl.UTF-8):   Linphone - telefon internetowy
 Name:		linphone-im
 Version:	0.12.1
 Release:	0.1
@@ -35,21 +35,21 @@ Here are the main features of linphone:
 - Linphone is documented: there is a complete user manual readable
   from the application that explains you all you need to know.
 
-%description -l pl
-Linphone to telefon internetowy - pozwala dzwoniæ do znajomych na
-ca³ym ¶wiecie bez dodatkowych op³at, u¿ywaj±c tylko Internetu.
+%description -l pl.UTF-8
+Linphone to telefon internetowy - pozwala dzwoniÄ‡ do znajomych na
+caÅ‚ym Å›wiecie bez dodatkowych opÅ‚at, uÅ¼ywajÄ…c tylko Internetu.
 
-G³ówne cechy linphone:
-- dzia³anie ze ¶rodowiskiem GNOME
-- na¶ladowanie prostego telefonu komórkowego - tylko dwa przyciski
-- obs³uga protoko³u SIP
-- wymaga karty d¼wiêkowej
-- jest wolnodostêpnym oprogramowaniem (na licencji GPL)
-- ma dokumentacjê: pe³ny podrêcznik dostêpny z aplikacji.
+GÅ‚Ã³wne cechy linphone:
+- dziaÅ‚anie ze Å›rodowiskiem GNOME
+- naÅ›ladowanie prostego telefonu komÃ³rkowego - tylko dwa przyciski
+- obsÅ‚uga protokoÅ‚u SIP
+- wymaga karty dÅºwiÄ™kowej
+- jest wolnodostÄ™pnym oprogramowaniem (na licencji GPL)
+- ma dokumentacjÄ™: peÅ‚ny podrÄ™cznik dostÄ™pny z aplikacji.
 
 %package devel
 Summary:	Linphone Internet Phone - header files
-Summary(pl):	Telefon internetowy Linphone - pliki nag³ówkowe
+Summary(pl.UTF-8):   Telefon internetowy Linphone - pliki nagÅ‚Ã³wkowe
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	gtk-doc-common
@@ -57,19 +57,19 @@ Requires:	gtk-doc-common
 %description devel
 Development files for the Linphone Internet Phone.
 
-%description devel -l pl
-Pliki dla programistów u¿ywaj±cych telefonu internetowego Linphone.
+%description devel -l pl.UTF-8
+Pliki dla programistÃ³w uÅ¼ywajÄ…cych telefonu internetowego Linphone.
 
 %package static
 Summary:	Linphone static libraries
-Summary(pl):	Statyczne biblioteki Linphone
+Summary(pl.UTF-8):   Statyczne biblioteki Linphone
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 Static version of Linphone libraries.
 
-%description static -l pl
+%description static -l pl.UTF-8
 Statyczne wersje bibliotek Linphone.
 
 %prep
