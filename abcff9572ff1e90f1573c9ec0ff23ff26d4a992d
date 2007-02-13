@@ -1,0 +1,3 @@
+- cleanups, fixed license (parts are on LGPL v2.1+)
+- fixed gtk-doc dir, moved API documentation to -devel
+- moved static libraries to -static, removed Speex files
