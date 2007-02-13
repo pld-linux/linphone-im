@@ -3,7 +3,7 @@
 # - remove included speex
 
 Summary:	Linphone Internet Phone
-Summary(pl.UTF-8):   Linphone - telefon internetowy
+Summary(pl.UTF-8):	Linphone - telefon internetowy
 Name:		linphone-im
 Version:	0.12.1
 Release:	0.1
@@ -49,7 +49,7 @@ Główne cechy linphone:
 
 %package devel
 Summary:	Linphone Internet Phone - header files
-Summary(pl.UTF-8):   Telefon internetowy Linphone - pliki nagłówkowe
+Summary(pl.UTF-8):	Telefon internetowy Linphone - pliki nagłówkowe
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	gtk-doc-common
@@ -62,7 +62,7 @@ Pliki dla programistów używających telefonu internetowego Linphone.
 
 %package static
 Summary:	Linphone static libraries
-Summary(pl.UTF-8):   Statyczne biblioteki Linphone
+Summary(pl.UTF-8):	Statyczne biblioteki Linphone
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
