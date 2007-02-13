@@ -1,0 +1,3 @@
+- in gnome-common-2.8.0 all macros are in %{_aclocaldir}, not in
+  %{_aclocaldir}/gnome2-macros, so remove -I %{_aclocal}/gnome2-macros from
+  %{__aclocal} args and BR: gnome-common >= 2.8.0
